@@ -9,8 +9,8 @@
         <!-- 内容 -->
         <div class="book">
             <div class="cover">
-                <img src="../../static/images/page.png" alt="" class="page"> 
-                <div  class="play_button"> 
+                <img src="../../static/images/page.png" alt="" class="page">
+                <div  class="play_button">
                   <img src="../../static/images/play_button.png">
                 </div>
             </div>
@@ -22,7 +22,7 @@
         <!-- 布克 -->
         <div class="buke">
             <img src="../../static/images/buke.png" alt="">
-        </div>    
+        </div>
     </div>
 </template>
 
@@ -70,7 +70,7 @@
 
   .play_button {
     position: absolute;
-    bottom: 26px;
+    bottom: 20px;
   }
 
   .abstract {
@@ -163,10 +163,8 @@
   }
 
   .play_button {
-    height: 70px;
-    width: 65px;
     position: absolute;
-    bottom: 17px;
+    bottom: 6px;
   }
 
   .abstract {
