@@ -49,33 +49,44 @@
   .top img {
     margin-left: 10px;
   }
-
+  
   .book {
     /* height: 1296px; */
-    width: 694px;
+    height: 90%;
+    /* width: 694px; */
+    width: 100%;
     margin: 0 auto;
     margin-top: 20px;
   }
 
   .cover {
-    width: 694px;
-    height: 690px;
-    /* margin: 0 auto; */
+    /* width: 694px; */
+    /* height: 690px; */
+    height: 55%;
+    width: 85%;
+    margin: 0 auto;
     background: url("../../static/images/book_bgc.png") no-repeat;
+    background-size: 100% 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
   }
 
+  .page{
+    height: 88%;
+    width: 88%;
+  }
+
   .play_button {
     position: absolute;
-    bottom: 20px;
+    bottom: 19px;
   }
 
   .abstract {
     width: 576px;
-    height: 537px;
+    /* height: 537px; */
+    height: 45%;
     background-color: #93cad0;
     border-radius: 20px;
     display: flex;
@@ -164,7 +175,12 @@
 
   .play_button {
     position: absolute;
-    bottom: 6px;
+    bottom: 12px;
+  }
+
+  .play_button img {
+    height: 90px;
+    width: 80px;
   }
 
   .abstract {
