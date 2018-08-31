@@ -13,11 +13,13 @@
 
         <div class="page">
           <img src="../../static/images/page.png" alt="">
+
+          <div class="play_button">
+            <img src="../../static/images/play_button.png">
+          </div>
         </div>
 
-        <div class="play_button">
-          <img src="../../static/images/play_button.png">
-        </div>
+
 
       </div>
 
@@ -92,10 +94,21 @@
       width: 694px;
       height: 690px;
       background: url("../../static/images/book_bgc.png") no-repeat;
+      background-size: cover;
+    }
+
+    .page {
+      width: 100%;
+      height: 100%;
       display: flex;
       justify-content: center;
       align-items: center;
       position: relative;
+    }
+
+    .page>img {
+      width: 85%;
+      height: 85%;
     }
 
     .play_button {
@@ -110,10 +123,6 @@
       box-sizing: border-box;
     }
 
-    .play_button img {
-      width: 117px;
-      height: 137px;
-    }
 
     .abstract {
       width: 576px;
@@ -186,24 +195,26 @@
 
     .cover {
       width: 365px;
-      height: 90%;
-      background: url("../../static/images/book_bgc.png") no-repeat center;
-      background-size: 95% 100%;
+      height: 365px;
+      background: url("../../static/images/book_bgc.png") no-repeat;
+      background-size: cover;
+
+      /* position: relative; */
+      /* padding: 30px 20px; */
+    }
+
+    .page {
+      width: 100%;
+      height: 100%;
       display: flex;
       justify-content: center;
       align-items: center;
       position: relative;
-      padding: 30px 20px;
     }
 
-    .page {
-      height: 340px;
-      width: 340px;
-    }
-
-    .page img {
-      width: 100%;
-      height: 100%;
+    .page>img {
+      width: 85%;
+      height: 85%;
     }
 
     .play_button {
@@ -214,11 +225,9 @@
       display: flex;
       justify-content: center;
       align-items: flex-end;
-      padding-bottom: 15px;
+      padding-bottom: 7px;
       box-sizing: border-box;
     }
-
-
 
     .abstract {
       width: 320px;
