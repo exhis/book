@@ -5,7 +5,12 @@ import App from './App'
 import router from './router'
 import adaptVP from '../static/js/adaptVP'
 
-import '../static/css/site.css'
+import MintUI from 'mint-ui'
+import 'mint-ui/lib/style.css'
+import '../static/css/site.css' 
+// 本地样式
+// 哦
+Vue.use(MintUI);
 
 Vue.config.productionTip = false
 

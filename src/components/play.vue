@@ -2,9 +2,9 @@
   <div class="summary">
     <!-- 顶部按钮 -->
     <div class="top">
-      <img src="../../static/images/captions.png" alt="">
+      <!-- <img src="../../static/images/captions.png" alt="">
       <img src="../../static/images/auto_turning.png" alt="">
-      <img src="../../static/images/music.png" alt="">
+      <img src="../../static/images/music.png" alt=""> -->
     </div>
     <!-- 内容 -->
     <div class="book">
@@ -13,7 +13,7 @@
 
         <div class="page">
           <img src="../../static/images/page.png" alt="">
-
+          <!-- 我手机看到效果了,不居中,你先等等啊.... -->
           <div class="play_button">
             <img src="../../static/images/play_button.png">
           </div>
@@ -95,7 +95,7 @@
   }
 
   .page {
-    background-color: red;
+    /* background-color: red; */
     width: 100%;
     height: 100%;
     display: flex;
@@ -111,14 +111,16 @@
 
   .play_button {
     position: absolute;
-    top: 0px;
+    bottom: 16px;
+    left: calc(100% / 2 - 117px / 2);
+    /* top: 0px;
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: flex-end;
     padding-bottom: 20px;
-    box-sizing: border-box;
+    box-sizing: border-box; */
   }
 
   .abstract {
@@ -154,8 +156,11 @@
 
   /*定义滚动条轨道 内阴影+圆角*/
   .text::-webkit-scrollbar-track {
+    width: 18px;
+    height: 10px;
     border-radius: 10px;
-    background-color: #ccc;
+    background-color: #b46868;
+    -webkit-box-shadow: inset 0 0 106px rgba(0, 0, 0, 0.3);
   }
 
   /*定义滑块 内阴影+圆角*/
@@ -218,7 +223,7 @@
   }
 
   .page {
-    background-color: red;
+    /* background-color: red; */
     width: 100%;
     height: 100%;
     display: flex;
@@ -234,14 +239,22 @@
 
   .play_button {
     position: absolute;
-    top: 0px;
+    /* top: 0px;
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: flex-end;
     padding-bottom: 7px;
-    box-sizing: border-box;
+    box-sizing: border-box; */
+    bottom: 6px;
+    /* left: calc(100% / 2 - 117px / 2); */
+    left: calc(100% / 2 - 70px / 2);
+  }
+
+  .play_button img {
+    height: 80px;
+    width: 70px;
   }
 
   .abstract {
